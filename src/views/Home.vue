@@ -174,7 +174,7 @@ position: sticky;
 
 
 .main{
-  background: linear-gradient(to bottom, transparent, transparent),url('C:/Users/ETCHIE MOYOWA/Desktop/personal/Portfolio/portfolio/src/assets/4.jpeg') ;
+  background: linear-gradient(to bottom, transparent, transparent),url('../assets/4.jpeg') ;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -300,7 +300,7 @@ position: sticky;
   background:red;
 }
  .imge{
-   background: url('C:/Users/ETCHIE MOYOWA/Desktop/personal/Portfolio/portfolio/src/assets/project1.jpg') ;
+   background: url('../assets/project1.jpg') ;
    background-size:contain;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -327,10 +327,9 @@ position: sticky;
   width:100%;
 
   height:auto
-  
 }
 .contact .cont{
-  margin-top:2%;
+  margin-top:1%;
   margin-bottom:2%;
   height:500px;
   width:55%;
@@ -345,7 +344,8 @@ position: sticky;
 }
 .cont .content{
   margin:10%;
-  margin-top:4%
+  margin-top:4%;
+
  
 }
 .content .links {
