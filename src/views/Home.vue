@@ -163,7 +163,7 @@ position: sticky;
    margin-top:1%;
   margin-bottom:1%;
   width:80%;
-  margin-left:100vh;
+  margin-left:90vh;
     font-weight: 600;
 }
 .nav .right a{
