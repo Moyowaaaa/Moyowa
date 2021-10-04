@@ -50,7 +50,7 @@
 
       </div>
      
-        <router-link class="route" to='/about'><button>View Resume</button></router-link>
+        <a href="https://drive.google.com/file/d/1s3XNpbtFk_X6Qj40mu5ocL1vPZ_QPuTK/view?usp=sharing"><button>View Resume</button></a>
      
     </div>
 
@@ -199,14 +199,14 @@ position: sticky;
   font-Size:60px;
 } 
 .title p{
-  padding-top:5%;
-  margin-left:25%;
+  padding-top:10%;
+  margin-left:20%;
   font-size: 30px;;
 }
 .pi{
   display:flex;
 }.pi .fullstop{
-  padding-top:5%;
+  padding-top:10%;
   font-size:20px;
 }
 
@@ -237,6 +237,12 @@ position: sticky;
   width:80%;
   margin-top:5%;
   margin-left:10%;
+}
+  a{
+  color:white;
+}
+a:hover{
+  color:black;
 }
 .about .content button{
   margin-top:5%;
@@ -330,7 +336,7 @@ position: sticky;
 }
 .contact .cont{
   margin-top:1%;
-  margin-bottom:2%;
+  margin-bottom:1%;
   height:500px;
   width:55%;
   margin-left:20%;
@@ -339,7 +345,7 @@ position: sticky;
 }
 .contact h3{
   margin-top:5%;
-  padding-top:10%;
+  padding-top:5%;
   text-align: center;
 }
 .cont .content{
