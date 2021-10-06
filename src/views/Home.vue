@@ -1,6 +1,18 @@
 <template>
 <div>
 
+  <div id ="mobile" class="mobilenav">
+      <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
+      <div class="ml"  @click="closeNav">
+         <a href="">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+  </div>
+  <span class="mbutton" style="font-size:40px;cursor:pointer" @click="openNav">
+  &#9776;</span>
+
   <div class="nav">
     
     <div class="left">
@@ -63,26 +75,23 @@
       <h1>PORTFOLIO<hr></h1>
         <div class="gallery">
 
-          <div class="projects">
-            <div class="imge">
-             
+          <div class="work">
+
+            <div class="img">
+              <img src="../assets/project1.jpg" style="width:100%;" height="100%">
             </div>
-           
+
+         
+
+         
           </div>
-
-          <div class="projects">
-
-          </div>
-
-
-          <div class="projects">
-            
-          </div>
-
 
         </div>
+        <b><a  href="https://github.com/Pope-Skittles">More Works</a></b>
     </div>
-       <a  href="https://github.com/Pope-Skittles">More Works</a>
+<!---------------
+  
+       ------>
     </div>
 
  
@@ -98,8 +107,7 @@
     <div class ="cont">
       <h3>Contact<hr></h3>
        <div class="content">
-      <p>I'm currently open to any work or project, send me an Email or message me on my socials </p> 
-        <p>and i will get back to you as soon as possible.</p>
+      <p>I'm currently open to any work or project, send me an Email or message me on my socials and I will get back to you as soon as possible.</p>
 
         <div class="links">
           <a href="mailto:moyowa7@icloud.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
@@ -132,9 +140,14 @@
 
 export default {
   name: 'Home',
-  components: {
-
-  }
+methods:{
+  openNav() {
+    document.getElementById("mobile").style.width = "100%";
+},
+closeNav() {
+    document.getElementById("mobile").style.width = "0";
+}
+}
 }
 </script>
 
@@ -171,6 +184,58 @@ position: sticky;
   margin-left:5%;
   text-decoration: none;;
 }
+.mobilenav {
+
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+     background:#333b50;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.mobilenav a {
+    padding: 2% 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 550;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.mobilenav a:hover {
+    color: #f1f1f1;
+}
+
+.mobilenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.mbutton{
+  display:none;
+  position:sticky;
+  margin-top:5%;
+}
+
+@media screen and (max-height: 450px) {
+ 
+  .mobilenav {
+    display:block;
+    
+    padding-top: 15px;}
+  .mobilenav a {font-size: 18px;
+  color:black;
+  }
+
+}
 
 
 .main{
@@ -178,7 +243,7 @@ position: sticky;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-position-y: -70vh;
+  background-position-y: -71.5vh;
   background-position-x: 71vh;
   width:100%;
   height:100vh;
@@ -270,16 +335,20 @@ a:hover{
   background:#333b50;
   color:white;
 }
+.portfolio b{
+  text-align:center;
+ 
+}
 
  .portfolio .works h1{
   text-align: center;
-  margin-top:1%;
+  margin-top:2%;
   margin-bottom:2%
 }
 .portfolio .works .content{
   width:100%;
   padding-top:2%;
-  padding-bottom: 18%;;
+  padding-bottom: 5%;;
 }
 .content .gallery{
 
@@ -288,41 +357,29 @@ a:hover{
   margin-left: 5%;;
   display: flex;;
 }
-
-
-.gallery .projects{
-  width:35%;
-  height:300px;
-  margin-left:1%;
-  border:2px solid rgb(21, 223, 196);
-}
-.gallery .projects .imge{
-  height:100%;
-  width:100%;
-  
-}
-.gallery .projects .des{
-  height:60px;
-  background:red;
-}
- .imge{
-   background: url('../assets/project1.jpg') ;
-   background-size:contain;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  
+.gallery .work{
+  width:33%;
+  height:400px;
+  border:1px solid blue;
+  background:rgb(2, 12, 46);
 }
 
-.gallery .projects img{
-  width:100%;
-  height:100%
-}
+
+
+
+
 .works a{
   font-size: 20px;
   color:white;
   margin-left:45%;
   margin-bottom: 5%;
   
+}
+@media screen and (max-width: 480px) {
+  .gallery .work{
+    width: 95%;
+    margin-left:2.5%;
+  }
 }
 
 /*----------- */
@@ -345,14 +402,16 @@ a:hover{
 }
 .contact h3{
   margin-top:5%;
-  padding-top:5%;
+  padding-top:10vh;
   text-align: center;
 }
 .cont .content{
+  width:80%;
   margin:10%;
-  margin-top:4%;
-
- 
+  margin-top:10vh;
+}
+.cont .content p{
+  line-height:25px;
 }
 .content .links {
     margin-top:10%;
@@ -395,13 +454,14 @@ footer p{
   .nav{
     display:none;
   }
+ 
   .title{
     margin-left:2%;
   }
   .title h1 {
     padding-top:30vh;
-      background-position-x:-100px;
-  }.pi{
+  }
+  .pi{
     margin-left:1vh
   }
   .pi .fullstop{
@@ -419,25 +479,49 @@ footer p{
     width:40%;
     margin-left:30%;
   }
+  .about  h2{ 
+  padding-top:10%;
+  }
+  .about .content .body{
+    margin-top:10%;
+    width:90%;
+    margin-left:5%;
+  }
   .content .gallery{
     display:block;
   }
+
   .gallery .projects {
     width:95%;
     margin-top:2%;
   }
   .contact .cont{
-    width:90%;
-    margin-left:5%;
+    width:98%;
+    margin-left:1%;
+  }
+  .cont .content p{
+    width:100%; 
+    text-align: justify;
+  }
+  
+  .contact h3{
+    padding-top:15%;
   }
   .content .links a{
-    padding-top:10%;
+    padding-top:20%;
     margin-right:5%;
   }
   .works a{
     margin-left:40%;
-  
   }
+  .mbutton{
+  display: initial;
+  width:50px;
+  margin-left:85%;
+}
+.ml{
+  text-align:center;
+}
 
 }
 /* ------------ */
