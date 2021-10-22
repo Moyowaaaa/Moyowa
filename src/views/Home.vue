@@ -15,7 +15,7 @@
 
   <div class="nav">
     
-    <div class="left">
+    <div class="left" as="router-link" to="/">
       Moyowa
 </div>
 
