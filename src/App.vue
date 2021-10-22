@@ -5,17 +5,21 @@
   </div>
 </template>
 
-<style>
+<style >
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color:#f2eee6;
-
+  overflow-x:hidden
+  
+}
+body{
+  margin:0px !important;
 }
 
 #nav {
-  padding: 30px;
+ 
 }
 
 #nav a {

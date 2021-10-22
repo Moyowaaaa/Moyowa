@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="App">
 
   <div id ="mobile" class="mobilenav">
       <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
@@ -36,14 +36,10 @@
 <div class="title">
   
   
-  <h1>I'm Moyowa</h1>
+  <h1>I<span class="span">'</span>m Moyowa</h1>
   <div class="pi">
    
-  <p>Web Developer </p>
-
-  <div class="fullstop">
-  <p>.</p>
-  </div>
+  <p>Web Developer <span class="span">.</span></p>
   </div>
 
 </div>
@@ -69,34 +65,68 @@
   </div>
 
 
+
   <div class="portfolio" id="portfolio">
-    <div class="works">
-      <div class="content">
-      <h1>PORTFOLIO<hr></h1>
-        <div class="gallery">
 
-          <div class="work">
+    <div class="header">
+      <h2>Portfolio<hr></h2>
+    </div>
 
-            <div class="img">
-              <img src="../assets/project1.jpg" style="width:100%;" height="100%">
+     <div class="content">
+        <div class="project">
+          <div class="img">
+            <img src="../assets/project1.jpg" style="width:100%;height:100%;border-top-left-radius: 10px; border-top-right-radius: 10px" alt="">
+          </div>
+          <div class="des">
+            <h3>HedgeHog<hr></h3>
+
+            <p>Task Tracking Web Application</p>
+            <div class="languages">
+              <p><li>Vue js</li></p>
+              <p><li>Chakra-ui</li></p>
             </div>
-
-         
-
-         
+            <a href="https://xdm-front-vercel.app">View</a>
           </div>
 
+        
+
         </div>
-        <b><a  href="https://github.com/Pope-Skittles">More Works</a></b>
-    </div>
-<!---------------
-  
-       ------>
-    </div>
 
- 
+
+<!-------------------------
+        <div class="project">
+          <div class="img">
+
+          </div>
+
+
+          <div class="des">
+
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="img">
+
+          </div>
+
+
+          <div class="des">
+            
+          </div>
+        </div>
+---------------->
+        
+      </div>
+
+
+      
+
+      <div class="git">
+        <a href=""><p>See More</p></a>
+      </div>
+
   </div>
-
 
 
 
@@ -155,6 +185,7 @@ closeNav() {
 body{
     background-color:#f2eee6;
 }
+
 .nav{
   background:
 #f2eee6;
@@ -224,6 +255,9 @@ position: sticky;
   position:sticky;
   margin-top:5%;
 }
+.span{
+  color:steelblue
+}
 
 @media screen and (max-height: 450px) {
  
@@ -267,6 +301,8 @@ position: sticky;
   padding-top:10%;
   margin-left:20%;
   font-size: 30px;;
+  color:black;
+  text-align:none;
 }
 .pi{
   display:flex;
@@ -297,11 +333,21 @@ position: sticky;
   padding-top:5%;
   text-align: center;
 }
-.about .content .body{
+.about .content .body p {
+  width:80%;
+  margin-left:10%;
+  margin-top:5%;
   text-align:justify;
+}
+/*
+.about .content .body{
+  
   width:80%;
   margin-top:5%;
   margin-left:10%;
+}*/
+.about .content .body p{
+  text-align:justify;
 }
   a{
   color:white;
@@ -331,55 +377,81 @@ a:hover{
 }
 /* Portfolio */
 .portfolio{
-  height:auto;
-  background:#333b50;
-  color:white;
+   background:#333b50;
+   width:100%;
+   height:auto
 }
-.portfolio b{
-  text-align:center;
- 
-}
-
- .portfolio .works h1{
-  text-align: center;
-  margin-top:2%;
-  margin-bottom:2%
-}
-.portfolio .works .content{
-  width:100%;
+.portfolio .header{
   padding-top:2%;
-  padding-bottom: 5%;;
+  color: #f1f1f1;
+  text-align:center
 }
-.content .gallery{
+.portfolio .content {
+  display: flex;
+  width:100%;
 
-  width:90%;
-  height:auto;
-  margin-left: 5%;;
-  display: flex;;
+  height:550px;
+
 }
-.gallery .work{
-  width:33%;
-  height:400px;
-  border:1px solid blue;
-  background:rgb(2, 12, 46);
+.portfolio .content .project{
+  margin-left:4%;
+  display:block;
+  margin-top:4%;
+  width:28%;
+  height:85%;
+  border-radius: 10px;
+ 
+  border:1px solid black;
 }
+.content .project .img{
+  height:50%;
+}
+.content .project .des{
+  height: 50%;
+  border:1px solid black;
+  background: #010101;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
 
-
-
-
-
-.works a{
-  font-size: 20px;
+}
+.project .des h3 , p{
+  text-align:center;
   color:white;
-  margin-left:45%;
-  margin-bottom: 5%;
-  
 }
+.project .des .languages{
+  display:flex;
+  margin-top:10px;
+  margin-bottom: 25px;
+  color:steelblue;
+}
+.des .languages li{
+  margin-left: 15px;
+}
+.des a{
+  margin-left:2vh
+}
+.des a:hover{
+  
+  color:white;
+}
+.git{
+  width:100%;
+  font-size: 20px;
+  text-align: center;
+  color:white;
+  padding-top:2%;
+  padding-bottom:2%;
+}
+
+
+
 @media screen and (max-width: 480px) {
-  .gallery .work{
-    width: 95%;
-    margin-left:2.5%;
-  }
+ .portfolio .content {
+   display:block;
+ }
+ .portfolio .content .project{
+   width:90%;
+ }
 }
 
 /*----------- */
@@ -469,7 +541,7 @@ footer p{
   }
 
   .title p{
-    margin-left:20%;
+    margin-left:17%;
   }
   .about .content{
     width:98%;
@@ -525,4 +597,57 @@ footer p{
 
 }
 /* ------------ */
+@media screen and (max-width: 768px) {
+  .nav{
+    display:none;
+  }
+  .about .content{
+    width:100%;
+    margin-left:0px
+  }
+  .mobilenav {
+    display:block;
+    
+    padding-top: 15px;}
+  .mobilenav a {font-size: 18px;
+  color:black;
+  }
+  .main{
+    background-image:none;
+  }
+  .portfolio .content .project{
+    width:45%;
+    margin-left:2%
+  }
+  .contact .cont {
+    width:99%;
+    margin-left:2px;
+  }
+  .mbutton{
+    display:inline;
+    padding-top:5%;
+    margin-left:90%;
+  }
+  .mobilenav a{
+  
+    font-size:30px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .nav .right{
+    margin-left:45%;
+  }
+  .main{
+    background-position-y: -45vh;
+  background-position-x: 71vh;
+  }
+  .contact .cont{
+    width:90%;
+    margin-left:5%;  
+  }
+  .about .content{
+    width:99%;
+    margin-left:5px;
+  }
+}
 </style>
