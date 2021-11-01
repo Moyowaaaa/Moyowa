@@ -15,7 +15,7 @@
 
   <div class="nav">
     
-    <div class="left" as="router-link" to="/">
+    <div class="left">
       Moyowa
 </div>
 
@@ -73,17 +73,21 @@
     </div>
 
      <div class="content">
+
+
+
+
+
         <div class="project">
           <div class="img">
-            <img src="../assets/project1.jpg" style="width:100%;height:100%;border-top-left-radius: 10px; border-top-right-radius: 10px" alt="">
+            <img src="../assets/project1.jpg" style="width:100%;height:100%;" alt="">
           </div>
           <div class="des">
             <h3>HedgeHog<hr></h3>
 
             <p>Task Tracking Web Application</p>
             <div class="languages">
-              <p><li>Vue js</li></p>
-              <p><li>Chakra-ui</li></p>
+            
             </div>
             <a href="https://xdm-front-vercel.app">View</a>
           </div>
@@ -92,38 +96,88 @@
 
         </div>
 
-
-<!-------------------------
         <div class="project">
+
+
+          <!---------------------
           <div class="img">
-
+            <img src="../assets/project1.jpg" style="width:100%;height:100%;" alt="">
           </div>
-
-
           <div class="des">
+            <h3>HedgeHog<hr></h3>
 
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="img">
-
-          </div>
-
-
-          <div class="des">
+            <p>Task Tracking Web Application</p>
+            <div class="languages">
             
+            </div>
+            <a href="https://xdm-front-vercel.app">View</a>
           </div>
-        </div>
----------------->
+
+
+          ---------->
+           <div class="upload">
+
+              <div class="up">
+                <div class="hourglass">
+                  <span class="glyphicon glyphicon-hourglass"></span>
+                </div>
+                
+
+                <p>Work Upload in Progress</p>
+              </div>
+
+          </div>
         
+        
+
+        </div>
+
+
+        <div class="project">
+
+
+          <!------------------------------
+          <div class="img">
+            <img src="../assets/project1.jpg" style="width:100%;height:100%;" alt="">
+          </div>
+          <div class="des">
+            <h3>HedgeHog<hr></h3>
+
+            <p>Task Tracking Web Application</p>
+            <div class="languages">
+            
+            </div>
+            <a href="https://xdm-front-vercel.app">View</a>
+          </div>
+
+
+
+
+          ----->
+            <div class="upload">
+
+              <div class="up">
+                <div class="hourglass">
+                  <span class="glyphicon glyphicon-hourglass"></span>
+                </div>
+                
+
+                <p>Work Upload in Progress</p>
+              </div>
+              
+
+          </div>
+        
+
+        </div>
+
       </div>
 
 
       
 
       <div class="git">
-        <a href=""><p>See More</p></a>
+        <a href="https://github.com/Pope-Skittles"><p>See More <i class="fa fa-github" aria-hidden="true"></i></p></a>
       </div>
 
   </div>
@@ -322,9 +376,10 @@ position: sticky;
 .about .content{
   margin-top:2%;
   margin-bottom:2%;
+  padding-bottom:5%;
  
   width:65%;
-  height:500px;
+  height:auto;
   margin-left:18%;
   color:white;
    background:#333b50
@@ -336,7 +391,7 @@ position: sticky;
 .about .content .body p {
   width:80%;
   margin-left:10%;
-  margin-top:5%;
+  margin-top:2%;
   text-align:justify;
 }
 /*
@@ -390,16 +445,16 @@ a:hover{
   display: flex;
   width:100%;
 
-  height:550px;
+  height:auto;
 
 }
 .portfolio .content .project{
   margin-left:4%;
   display:block;
-  margin-top:4%;
+  margin-top:1%;
   width:28%;
-  height:85%;
-  border-radius: 10px;
+  height:500px;
+ 
  
   border:1px solid black;
 }
@@ -410,8 +465,7 @@ a:hover{
   height: 50%;
   border:1px solid black;
   background: #010101;
-   border-bottom-left-radius: 10px;
-   border-bottom-right-radius: 10px;
+   
 
 }
 .project .des h3 , p{
@@ -439,8 +493,23 @@ a:hover{
   font-size: 20px;
   text-align: center;
   color:white;
-  padding-top:2%;
-  padding-bottom:2%;
+  padding-top:5%;
+  padding-bottom:5%;
+}
+
+.upload {
+  width:100%;
+  height: 100%;
+  background: black;;
+}
+.upload .up {
+  color: steelblue;
+  text-align:center;
+  padding-top:50%
+}
+
+ .up .hourglass {
+  font-size: 80px;;
 }
 
 
@@ -451,6 +520,7 @@ a:hover{
  }
  .portfolio .content .project{
    width:90%;
+   margin-left:5%;
  }
 }
 
@@ -544,12 +614,14 @@ footer p{
     margin-left:17%;
   }
   .about .content{
-    width:98%;
+    width:100%;
     margin-left:1%;
   }
   .about .content button{
     width:40%;
+    height:40px;
     margin-left:30%;
+    margin-bottom:5%
   }
   .about  h2{ 
   padding-top:10%;
@@ -562,10 +634,14 @@ footer p{
   .content .gallery{
     display:block;
   }
+  .portfolio .content .project{
+    margin-top: 5%
+    ;}
 
   .gallery .projects {
     width:95%;
-    margin-top:2%;
+    margin-left:5%;
+    margin-top:5%;
   }
   .contact .cont{
     width:98%;
@@ -616,8 +692,9 @@ footer p{
     background-image:none;
   }
   .portfolio .content .project{
-    width:45%;
-    margin-left:2%
+    width:95%;
+    margin-left:2%;
+     border-radius: 0px;
   }
   .contact .cont {
     width:99%;
