@@ -718,7 +718,7 @@ footer p{
   
     font-size:30px;
   }
-  /*
+  
   .portfolio {
     height:auto;
     width:100%
@@ -731,7 +731,7 @@ footer p{
     width:40%;
     margin-left:7%;
     margin-top:5%
-  }*/
+  }
 }
 @media screen and (max-width: 1024px) {
   .nav .right{
@@ -750,6 +750,21 @@ footer p{
     margin-left:5px;
   }
   
+}
+@media screen and (max-width: 480px) {
+   .portfolio {
+    height:auto;
+    width:100%
+  }
+  .portfolio .content {
+    display:flex;;
+    flex-wrap: wrap;
+  }
+  .portfolio .content .project{
+    width:90%;
+    margin-left:5%;
+    margin-top:5%
+  }
 }
 
 
