@@ -20,10 +20,10 @@
 </div>
 
       <div class="right">
-        <a href="">Home</a>
-        <a href="#about">About Me</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
+        <a href="" class="router">Home</a>
+        <a href="#about" class="router">About Me</a>
+        <a href="#portfolio" class="router">Portfolio</a>
+        <a href="#contact" class="router">Contact</a>
       </div>
 
 
@@ -51,10 +51,10 @@
     <div class="content">
       <h2>About Me<hr></h2>
       <div class="body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sapiente veniam culpa fugiat numquam temporibus voluptas ad obcaecati! 
-          Excepturi dolor voluptas sequi voluptatem nemo atque quae nam earum explicabo dicta?</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum consequuntur fugit veritatis velit accusantium rerum atque modi libero sint, ratione nihil commodi. Necessitatibus molestias possimus, 
-            delectus ullam doloremque totam soluta?</p>
+        <p>Hi, I'm Etchie Moyowa, a passionate web developer, I build interactive websites and web applications. My core skills are based on javascript, I am higly proficient in Vue, React and Node javascript frameworks
+          and I have also worked with the Mongo DB noSQL database
+        </p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium modi nobis eaque labore fugit recusandae in necessitatibus? Deleniti, voluptatem non? Voluptatibus error, sapiente alias dicta ut molestiae id natus accusamus!</p>
 
       </div>
      
@@ -129,7 +129,7 @@
           </div>
         
         
-
+ 
         </div>
 
 
@@ -269,6 +269,17 @@ position: sticky;
   margin-left:5%;
   text-decoration: none;;
 }
+.router {
+  color: inherit;
+  text-decoration: underline 0.17em rgba(255, 255, 255, 0);
+
+}
+.router:active {
+  background: #c42376;
+}
+.router:hover {
+  text-decoration-color: #441180;
+}
 .mobilenav {
 
     height: 100%;
@@ -331,7 +342,7 @@ position: sticky;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-position-y: -71.5vh;
+  background-position-y: -52vh;
   background-position-x: 71vh;
   width:100%;
   height:100vh;
@@ -390,8 +401,9 @@ position: sticky;
 }
 .about .content .body p {
   width:80%;
-  margin-left:10%;
-  margin-top:2%;
+  font-size: 15px;
+  margin: 0px 10% 12px;
+  margin-top:2vh;
   text-align:justify;
 }
 /*
@@ -412,6 +424,9 @@ a:hover{
 }
 .about .content button{
   margin-top:5%;
+  padding-top:1%;
+  font-size: 15px;
+  padding-bottom:1%;
   margin-left:40%;
   width:20%;
   background:#333b50;
@@ -434,7 +449,7 @@ a:hover{
 .portfolio{
    background:#333b50;
    width:100%;
-   height:auto
+   height:100vh
 }
 .portfolio .header{
   padding-top:2%;
@@ -453,7 +468,7 @@ a:hover{
   display:block;
   margin-top:1%;
   width:28%;
-  height:500px;
+  height:65vh;
  
  
   border:1px solid black;
@@ -493,8 +508,8 @@ a:hover{
   font-size: 20px;
   text-align: center;
   color:white;
-  padding-top:5%;
-  padding-bottom:5%;
+  padding-top:10vh;
+  padding-bottom:10vh;
 }
 
 .upload {
@@ -505,7 +520,7 @@ a:hover{
 .upload .up {
   color: steelblue;
   text-align:center;
-  padding-top:50%
+  padding-top:15vh
 }
 
  .up .hourglass {
@@ -522,6 +537,9 @@ a:hover{
    width:90%;
    margin-left:5%;
  }
+ .portfolio{
+   height:auto
+}
 }
 
 /*----------- */
@@ -537,7 +555,7 @@ a:hover{
   margin-top:1%;
   margin-bottom:1%;
   height:500px;
-  width:55%;
+  width:60%;
   margin-left:20%;
   color:white;
   background:#333b50
@@ -631,12 +649,7 @@ footer p{
     width:90%;
     margin-left:5%;
   }
-  .content .gallery{
-    display:block;
-  }
-  .portfolio .content .project{
-    margin-top: 5%
-    ;}
+
 
   .gallery .projects {
     width:95%;
@@ -691,11 +704,7 @@ footer p{
   .main{
     background-image:none;
   }
-  .portfolio .content .project{
-    width:95%;
-    margin-left:2%;
-     border-radius: 0px;
-  }
+
   .contact .cont {
     width:99%;
     margin-left:2px;
@@ -709,13 +718,27 @@ footer p{
   
     font-size:30px;
   }
+  /*
+  .portfolio {
+    height:auto;
+    width:100%
+  }
+  .portfolio .content {
+    display:flex;;
+    flex-wrap: wrap;
+  }
+  .portfolio .content .project{
+    width:40%;
+    margin-left:7%;
+    margin-top:5%
+  }*/
 }
 @media screen and (max-width: 1024px) {
   .nav .right{
     margin-left:45%;
   }
   .main{
-    background-position-y: -45vh;
+    background-position-y: -40vh !important;
   background-position-x: 71vh;
   }
   .contact .cont{
@@ -726,5 +749,8 @@ footer p{
     width:99%;
     margin-left:5px;
   }
+  
 }
+
+
 </style>
