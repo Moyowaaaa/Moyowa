@@ -51,11 +51,17 @@
     <div class="content">
       <h2>About Me<hr></h2>
       <div class="body">
-        <p>Hi, I'm Etchie Moyowa, a passionate web developer, I build interactive websites and web applications. My core skills are based on javascript, I am higly proficient in Vue, React and Node javascript frameworks
-          and I have also worked with the Mongo DB noSQL database
-        </p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium modi nobis eaque labore fugit recusandae in necessitatibus? Deleniti, voluptatem non? Voluptatibus error, sapiente alias dicta ut molestiae id natus accusamus!</p>
 
+        
+       
+        <p>Hi, I'm Moyowa Etchie, a confident and passionate web developer. I build interactive websites and web applications. I've always been passionate 
+          about problem solving as this is what got me into coding</p>
+
+            <p>My core skills are based on javascript, I am higly proficient in Vue.js, React and I'm also fluent in the Node and Express backend frameworks
+          and I have also worked with the Mongo DB noSQL database on various projects.</p>
+   
+
+          <p>I usually spend my day coding or learning something new and now I seek new opportunities to develop my skills even further. </p>
       </div>
      
         <a href="https://drive.google.com/file/d/1s3XNpbtFk_X6Qj40mu5ocL1vPZ_QPuTK/view?usp=sharing"><button>View Resume</button></a>
@@ -248,6 +254,8 @@ position: sticky;
   height:auto;
   display:flex;
   font-size: 16px;
+  position:fixed;
+  width:100%;
 }
 .nav .left{
     font-weight: 600;
@@ -271,7 +279,7 @@ position: sticky;
 }
 .router {
   color: inherit;
-  text-decoration: underline 0.17em rgba(255, 255, 255, 0);
+  text-decoration: underline 0.17em rgba(182, 137, 137, 0);
 
 }
 .router:active {
@@ -324,17 +332,7 @@ position: sticky;
   color:steelblue
 }
 
-@media screen and (max-height: 450px) {
- 
-  .mobilenav {
-    display:block;
-    
-    padding-top: 15px;}
-  .mobilenav a {font-size: 18px;
-  color:black;
-  }
 
-}
 
 
 .main{
@@ -342,7 +340,7 @@ position: sticky;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-position-y: -52vh;
+  background-position-y: -53vh;
   background-position-x: 71vh;
   width:100%;
   height:100vh;
@@ -401,7 +399,7 @@ position: sticky;
 }
 .about .content .body p {
   width:80%;
-  font-size: 15px;
+  font-size: 2vh;
   margin: 0px 10% 12px;
   margin-top:2vh;
   text-align:justify;
@@ -445,6 +443,11 @@ a:hover{
 .about .content .languages{
   display: flex;
 }
+.abimg{
+ 
+   display:none;
+}
+
 /* Portfolio */
 .portfolio{
    background:#333b50;
@@ -529,18 +532,7 @@ a:hover{
 
 
 
-@media screen and (max-width: 480px) {
- .portfolio .content {
-   display:block;
- }
- .portfolio .content .project{
-   width:90%;
-   margin-left:5%;
- }
- .portfolio{
-   height:auto
-}
-}
+
 
 /*----------- */
 
@@ -568,7 +560,7 @@ a:hover{
 .cont .content{
   width:80%;
   margin:10%;
-  margin-top:10vh;
+  margin-top:5%;
 }
 .cont .content p{
   line-height:25px;
@@ -683,6 +675,36 @@ footer p{
 .ml{
   text-align:center;
 }
+   .portfolio {
+    height:auto;
+    width:100%
+  }
+  .portfolio .content {
+    display:flex;;
+    flex-wrap: wrap;
+  }
+  .portfolio .content .project{
+    width:90%;
+    margin-left:5%;
+    margin-top:5%
+  }
+   .mobilenav {
+    display:block;
+    
+    padding-top: 15px;}
+  .mobilenav a {font-size: 18px;
+  color:black;
+  }
+  .abimg{
+    display:block;
+    width:100%;
+  }
+  .abim{
+  width:100%;
+  height:100%;
+
+ 
+}
 
 }
 /* ------------ */
@@ -727,11 +749,7 @@ footer p{
     display:flex;;
     flex-wrap: wrap;
   }
-  .portfolio .content .project{
-    width:40%;
-    margin-left:7%;
-    margin-top:5%
-  }
+
 }
 @media screen and (max-width: 1024px) {
   .nav .right{
@@ -750,21 +768,6 @@ footer p{
     margin-left:5px;
   }
   
-}
-@media screen and (max-width: 480px) {
-   .portfolio {
-    height:auto;
-    width:100%
-  }
-  .portfolio .content {
-    display:flex;;
-    flex-wrap: wrap;
-  }
-  .portfolio .content .project{
-    width:90%;
-    margin-left:5%;
-    margin-top:5%
-  }
 }
 
 
