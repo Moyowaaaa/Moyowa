@@ -85,19 +85,19 @@
 
 
         <div class="project">
-          <div class="img">
-            <img src="../assets/project1.jpg" style="width:100%;height:100%;" alt="">
-          </div>
-          <div class="des">
-            <h3>HedgeHog<hr></h3>
+           <div class="upload">
 
-            <p>Task Tracking Web Application</p>
-            <div class="languages">
-            
-            </div>
-            <a href="https://xdm-front-vercel.app">View</a>
-          </div>
+              <div class="up">
+                <div class="hourglass">
+                  <span class="glyphicon glyphicon-hourglass"></span>
+                </div>
+                
 
+                <p>Work Upload in Progress</p>
+              </div>
+              
+
+          </div>
         
 
         </div>
@@ -183,7 +183,7 @@
       
 
       <div class="git">
-        <a href="https://github.com/Pope-Skittles"><p>See More <i class="fa fa-github" aria-hidden="true"></i></p></a>
+        <a href="https://github.com/Moyowaaaa"><p>See More <i class="fa fa-github" aria-hidden="true"></i></p></a>
       </div>
 
   </div>
@@ -202,7 +202,7 @@
         <div class="links">
           <a href="mailto:moyowa7@icloud.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
           <a href="https://www.linkedin.com/in/moyowa-etchie-665b51189"><i class="fa fa-linkedin"></i></a>
-         <a href="https://github.com/Pope-Skittles"><i class="fa fa-github" aria-hidden="true"></i></a>
+         <a href="https://github.com/Moyowaaaa"><i class="fa fa-github" aria-hidden="true"></i></a>
                     <a href="https://twitter.com/Etchie____"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </div>
         </div>
