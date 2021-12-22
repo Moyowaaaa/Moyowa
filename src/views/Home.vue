@@ -78,110 +78,57 @@
       <h2>Portfolio<hr></h2>
     </div>
 
-     <div class="content">
-
-
-
-
-
+    <div class="portbody">
+      <div class="portcontent">
         <div class="project">
-           <div class="upload">
 
-              <div class="up">
+          <!------------
+          <div class="portimg"></div>
+          <div class="portlang"></div>
+          ------->
+          <div class="up">
                 <div class="hourglass">
                   <span class="glyphicon glyphicon-hourglass"></span>
                 </div>
-                
-
-                <p>Work Upload in Progress</p>
-              </div>
-              
-
           </div>
-        
+
 
         </div>
 
         <div class="project">
 
-
-          <!---------------------
-          <div class="img">
-            <img src="../assets/project1.jpg" style="width:100%;height:100%;" alt="">
-          </div>
-          <div class="des">
-            <h3>HedgeHog<hr></h3>
-
-            <p>Task Tracking Web Application</p>
-            <div class="languages">
-            
-            </div>
-            <a href="https://xdm-front-vercel.app">View</a>
-          </div>
-
-
-          ---------->
-           <div class="upload">
-
-              <div class="up">
+           <div class="up">
                 <div class="hourglass">
                   <span class="glyphicon glyphicon-hourglass"></span>
                 </div>
-                
-
-                <p>Work Upload in Progress</p>
-              </div>
-
           </div>
-        
-        
- 
-        </div>
 
+        </div>
 
         <div class="project">
 
-
-          <!------------------------------
-          <div class="img">
-            <img src="../assets/project1.jpg" style="width:100%;height:100%;" alt="">
-          </div>
-          <div class="des">
-            <h3>HedgeHog<hr></h3>
-
-            <p>Task Tracking Web Application</p>
-            <div class="languages">
-            
-            </div>
-            <a href="https://xdm-front-vercel.app">View</a>
-          </div>
-
-
-
-
-          ----->
-            <div class="upload">
-
-              <div class="up">
+           <div class="up">
                 <div class="hourglass">
                   <span class="glyphicon glyphicon-hourglass"></span>
                 </div>
-                
-
-                <p>Work Upload in Progress</p>
-              </div>
-              
-
           </div>
-        
 
         </div>
+
+        <!------------------
+        <div class="project"></div>
+
+        <div class="project"></div>
+
+        <div class="project"></div>
+        ------------->
+
 
       </div>
+    </div>
 
 
-      
-
+    
       <div class="git">
         <a href="https://github.com/Moyowaaaa"><p>See More <i class="fa fa-github" aria-hidden="true"></i></p></a>
       </div>
@@ -236,7 +183,8 @@ methods:{
 },
 closeNav() {
     document.getElementById("mobile").style.width = "0";
-}
+},
+
 }
 }
 </script>
@@ -450,84 +398,69 @@ a:hover{
 
 /* Portfolio */
 .portfolio{
-   background:#333b50;
+  padding-top:5%;
+  background: #333b50;
    width:100%;
    height:100vh
 }
 .portfolio .header{
-  padding-top:2%;
-  color: #f1f1f1;
+  
+  color: white;
   text-align:center
 }
-.portfolio .content {
-  display: flex;
-  width:100%;
 
-  height:auto;
-
-}
-.portfolio .content .project{
-  margin-left:4%;
-  display:block;
-  margin-top:1%;
-  width:28%;
-  height:65vh;
- 
- 
-  border:1px solid black;
-}
-.content .project .img{
-  height:50%;
-}
-.content .project .des{
-  height: 50%;
-  border:1px solid black;
-  background: #010101;
-   
-
-}
-.project .des h3 , p{
-  text-align:center;
-  color:white;
-}
-.project .des .languages{
-  display:flex;
-  margin-top:10px;
-  margin-bottom: 25px;
-  color:steelblue;
-}
-.des .languages li{
-  margin-left: 15px;
-}
-.des a{
-  margin-left:2vh
-}
-.des a:hover{
-  
-  color:white;
-}
 .git{
   width:100%;
   font-size: 20px;
   text-align: center;
-  color:white;
+  color:black;
   padding-top:10vh;
   padding-bottom:10vh;
 }
-
-.upload {
+.portbody{
   width:100%;
-  height: 100%;
-  background: black;;
+  height:auto;
 }
-.upload .up {
-  color: steelblue;
-  text-align:center;
-  padding-top:15vh
+.portcontent{
+  
+  margin-bottom:2%;
+  width:80%;
+  margin-left:10%;
+ 
+  height:auto;
+  display:flex;
+  flex-wrap: wrap;
+}
+.project{
+  background:black;
+  height:50vh;
+  width:26.5%;
+  margin-left:5%;
+  margin-top:2%;
+  
+   display: block;
+}
+.portimg{
+  height:25vh;
+  width:100%;
+  border:1px solid steelblue;
+  margin-top:3%;
+}
+.portlang{
+  height:20vh;
+  border:1px solid gold;
+  margin-top:5%;
 }
 
- .up .hourglass {
-  font-size: 80px;;
+.up{
+  width:100%;
+
+}
+.up .hourglass{
+  font-size: 100px;
+  text-align: center;
+  margin-top:45%;
+  color:steelblue
 }
 
 
@@ -679,14 +612,10 @@ footer p{
     height:auto;
     width:100%
   }
-  .portfolio .content {
-    display:flex;;
-    flex-wrap: wrap;
-  }
-  .portfolio .content .project{
-    width:90%;
-    margin-left:5%;
-    margin-top:5%
+  .project{
+    width:95%;
+    margin-left:2.5%;
+    height:428px;
   }
    .mobilenav {
     display:block;
