@@ -141,8 +141,27 @@
 
 
   <div class="contact" id="contact">
-    <div class ="cont">
-      <h3>Contact<hr></h3>
+    <div class="contbody">
+      <h3>Contact</h3> <hr>
+
+
+      <div class="contcontent">
+        <div class="content">
+                <p>I'm currently available to any work or project, send me an Email or message me on my socials and I will get back to you as soon as possible.</p>
+                </div>
+
+                <div class="links">
+                   <a href="mailto:moyowa7@icloud.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/moyowa-etchie-665b51189"><i class="fa fa-linkedin"></i></a>
+         <a href="https://github.com/Moyowaaaa"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/Etchie____"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </div>
+      </div>
+    </div>
+   
+
+
+      <!------------------
        <div class="content">
       <p>I'm currently open to any work or project, send me an Email or message me on my socials and I will get back to you as soon as possible.</p>
 
@@ -153,7 +172,9 @@
                     <a href="https://twitter.com/Etchie____"><i class="fa fa-twitter" aria-hidden="true"></i></a>
         </div>
         </div>
-    </div>
+
+        ----------->
+        
   </div>
 
  
@@ -165,7 +186,11 @@
 
   <footer>
 
-<p>Copyright &copy; Moyowa 2021</p>
+   
+      <p>Copyright &copy; Moyowa</p>
+   
+
+   
 
 
   </footer>
@@ -177,6 +202,9 @@
 
 export default {
   name: 'Home',
+  created() {
+     window.addEventListener("load", this.myfunction);
+  },
 methods:{
   openNav() {
     document.getElementById("mobile").style.width = "100%";
@@ -184,7 +212,10 @@ methods:{
 closeNav() {
     document.getElementById("mobile").style.width = "0";
 },
-
+     myfunction(){
+    var d = new Date();
+document.getElementById("demo").innerHTML = d.getFullYear();
+  }
 }
 }
 </script>
@@ -437,7 +468,7 @@ a:hover{
   width:26.5%;
   margin-left:5%;
   margin-top:2%;
-  
+  border-radius: 15px;
    display: block;
 }
 .portimg{
@@ -471,45 +502,42 @@ a:hover{
 
 /*Contact */
 .contact{
-  background-color:#f2eee6;
-  width:100%;
-
   height:auto
 }
-.contact .cont{
-  margin-top:1%;
-  margin-bottom:1%;
-  height:500px;
+.contbody{
+  background:#333b50;
+  margin-bottom:5%;
+  margin-top:5%;
+  height:auto;
+
   width:60%;
-  margin-left:20%;
-  color:white;
-  background:#333b50
+  margin-left:20%;;
+  color:white
+}
+.contcontent{
+  text-align:center
 }
 .contact h3{
-  margin-top:5%;
-  padding-top:10vh;
+  padding-top:5%;  
   text-align: center;
 }
-.cont .content{
-  width:80%;
-  margin:10%;
+.contcontent {
+  height:300px
+}
+.contcontent .content{
+  width:70%;
+  margin-left:15%;
+}
+.contcontent p{
   margin-top:5%;
+  margin-bottom: 5%;;
 }
-.cont .content p{
-  line-height:25px;
+.links{
+margin-top:5%;
 }
-.content .links {
-    margin-top:10%;
-  text-align:center;
-}
-.content .links a{
-
-  font-size: 25px;;
-   color:white;
-  margin-left:5%;
-}
-.content .links a:hover{
-  color:teal;
+.links a{
+  font-size:20px;
+  margin-left:2%;
 }
 /*--------------------*/
 hr{
@@ -528,10 +556,13 @@ footer{
   background:#333b50;
   color:white;
 }
+
 footer p{
-  margin-top:2%;
+    margin-top:2%;
   margin-bottom:2%;
 }
+
+
 
 
 /*-- Mobile Devices --*/
@@ -631,8 +662,24 @@ footer p{
   .abim{
   width:100%;
   height:100%;
-
- 
+}
+.contbody{
+  width:100%;
+  margin-left:0;
+}
+.contcontent .content{
+  width:90%;
+  margin-left:5%;
+}
+.links{
+margin-top:10%;
+}
+.links a{
+  font-size:20px;
+  margin-left:5%;
+}
+.project{
+  border-radius: 15px;
 }
 
 }
@@ -678,6 +725,8 @@ footer p{
     display:flex;;
     flex-wrap: wrap;
   }
+
+
 
 }
 @media screen and (max-width: 1024px) {
