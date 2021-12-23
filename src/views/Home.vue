@@ -50,8 +50,9 @@
   
     <div class="content">
       <h2>About Me<hr></h2>
+      <div class="mobilepic">
+          <img class="mobileeee" src="../assets/7.jpeg"></div>  
       <div class="body">
-
         
        
         <p>Hi, I'm Moyowa Etchie, a confident and passionate web developer. I build interactive websites and web applications. I've always been passionate 
@@ -438,6 +439,9 @@ a:hover{
  
    display:none;
 }
+.mobileeee{
+  display: none;;
+}
 
 /* Portfolio */
 .portfolio{
@@ -702,6 +706,12 @@ margin-top:10%;
 }
 .project{
   border-radius: 15px;
+}
+.mobileeee{
+  display:block;
+  width:90%;
+  margin-left:5%;
+  height:60vh;
 }
 
 }
