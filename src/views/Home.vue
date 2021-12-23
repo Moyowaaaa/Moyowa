@@ -186,8 +186,20 @@
 
   <footer>
 
-   
+
+
+
+    <div class="foot">
+       <div class="L">
       <p>Copyright &copy; Moyowa</p>
+    </div>
+    &nbsp;
+      
+      <div id="demo"></div>
+    </div>
+   
+
+  
    
 
    
@@ -213,8 +225,8 @@ closeNav() {
     document.getElementById("mobile").style.width = "0";
 },
      myfunction(){
-    var d = new Date();
-document.getElementById("demo").innerHTML = d.getFullYear();
+    const element = new Date();
+document.getElementById("demo").innerHTML = element.getFullYear();
   }
 }
 }
@@ -555,12 +567,22 @@ footer{
   box-shadow: 20px;
   background:#333b50;
   color:white;
+  padding-top:2%;
+  padding-bottom:1%;
+
+
+  
 }
 
-footer p{
-    margin-top:2%;
-  margin-bottom:2%;
+
+.foot{
+  text-align:center;
+  display:flex;
+  width:100%;
+  justify-content: center;
+  
 }
+
 
 
 
