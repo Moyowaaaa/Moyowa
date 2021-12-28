@@ -51,7 +51,8 @@
     <div class="content">
       <h2>About Me<hr></h2>
       <div class="mobilepic">
-          <img class="mobileeee" src="../assets/7.jpeg"></div>  
+        <img src="../assets/4.jpeg">
+          </div>  
       <div class="body">
         
        
@@ -62,7 +63,7 @@
           and I have also worked with the Mongo DB noSQL database on various projects.</p>
    
 
-          <p>I usually spend my day coding or learning something new and now I seek new opportunities to develop my skills even further. </p>
+          <p>I usually spend my days coding or learning something new and now I seek new opportunities to develop my skills even further. </p>
       </div>
      
         <a href="https://drive.google.com/file/d/1s3XNpbtFk_X6Qj40mu5ocL1vPZ_QPuTK/view?usp=sharing"><button>View Resume</button></a>
@@ -83,44 +84,141 @@
       <div class="portcontent">
         <div class="project">
 
-          <!------------
-          <div class="portimg"></div>
-          <div class="portlang"></div>
-          ------->
+         
+          
+       
+      
+            <img class="first" src="../assets/1.png">
+
+            <div class="bod">
+              <h3>HEDGEHOG</h3>
+              <div class="lang">
+
+              <div class="single">
+
+                <div class="l">
+                <p>Vue.js</p>
+                </div>
+                
+                <div class="l">
+                <p>Chakra -ui</p>
+                </div>
+              </div>
+                
+
+              </div>
+              <div class="m-link">
+                <p>View Project</p>
+              </div>
+            </div>
+          <!-------------
+          <div class="portlang">
+            <h3>HEDGEHOG <hr></h3>
+            <p>Task Tracking web application</p>
+
+            <div class="lang">
+              <div class="langs"><p>Vue.Js</p></div>
+              <div class="langs" id="lang2"><p>Ckakra-UI</p></div>
+            </div>
+            <br>
+            
+
+          </div> ---->
+
+
+          <!--------
           <div class="up">
                 <div class="hourglass">
                   <span class="glyphicon glyphicon-hourglass"></span>
-                </div>
-          </div>
+
+             
+          </div>--->   
+         
 
 
         </div>
 
-        <div class="project">
+        
 
-           <div class="up">
-                <div class="hourglass">
-                  <span class="glyphicon glyphicon-hourglass"></span>
+        <div class="project" id="second">
+           <img class="first" src="../assets/3.png">
+
+            <div class="bod">
+              <h3>TASK TRACKER</h3>
+              <div class="lang">
+
+              <div class="single">
+
+                <div class="l">
+                <p>Vue.js</p>
                 </div>
-          </div>
 
+                <div class="l">
+                <p>Node js</p>
+                </div>
+                
+                <div class="l">
+                <p>Express</p>
+                </div>
+
+                <div class="l">
+                <p>MongoDB</p>
+                </div>
+              </div>
+
+              
+            
+                
+
+              </div>
+              <div class="m-link">
+                <p>View Project</p>
+              </div>
+            </div>
         </div>
 
-        <div class="project">
+        
+        <div class="project" id="second">
 
-           <div class="up">
-                <div class="hourglass">
-                  <span class="glyphicon glyphicon-hourglass"></span>
+          <img class="first" src="../assets/2.png">
+
+
+               <div class="bod">
+              <h3>FAKE BLOG</h3>
+              <div class="lang">
+
+              <div class="single">
+
+                <div class="l">
+                <p>Vue.js</p>
                 </div>
-          </div>
 
+                <div class="l">
+                <p>Node js</p>
+                </div>
+                
+                <div class="l">
+                <p>Express</p>
+                </div>
+
+                <div class="l">
+                <p>MongoDB</p>
+                </div>
+              </div>
+
+              
+            
+                
+
+              </div>
+              <div class="m-link">
+                <p>View Project</p>
+              </div>
+            </div>
         </div>
 
-        <!------------------
         <div class="project"></div>
-
-        <div class="project"></div>
-
+<!------------------
         <div class="project"></div>
         ------------->
 
@@ -448,7 +546,7 @@ a:hover{
   padding-top:5%;
   background: #333b50;
    width:100%;
-   height:100vh
+   height:auto
 }
 .portfolio .header{
   
@@ -471,32 +569,49 @@ a:hover{
 .portcontent{
   
   margin-bottom:2%;
-  width:80%;
-  margin-left:10%;
- 
+  width:90%;
+  margin-left:3%;
   height:auto;
   display:flex;
   flex-wrap: wrap;
 }
 .project{
-  background:black;
-  height:50vh;
-  width:26.5%;
-  margin-left:5%;
+  border-radius:10px;
+  background: black;
+  width:47%;
+  height:auto;
+  margin-left:2%;
   margin-top:2%;
-  border-radius: 15px;
-   display: block;
+
+  
+ 
 }
-.portimg{
-  height:25vh;
+
+
+.project img{
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  height:90%
+}
+.bod p{
+  margin:2%
+}
+.project .bod{
+  display: none;;
+  
+  display: none;;
+}
+
+
+
+
+
+
+
+
+.first{
   width:100%;
-  border:1px solid steelblue;
-  margin-top:3%;
-}
-.portlang{
-  height:20vh;
-  border:1px solid gold;
-  margin-top:5%;
+  height:100%;
 }
 
 .up{
@@ -586,6 +701,9 @@ footer{
   justify-content: center;
   
 }
+.mobilepic{
+  display:none;
+}
 
 
 
@@ -627,7 +745,7 @@ footer{
   padding-top:10%;
   }
   .about .content .body{
-    margin-top:10%;
+    margin-top:20%;
     width:90%;
     margin-left:5%;
   }
@@ -670,8 +788,8 @@ footer{
     width:100%
   }
   .project{
-    width:95%;
-    margin-left:2.5%;
+    width:90%;
+    margin-left:5%;
     height:428px;
   }
    .mobilenav {
@@ -705,13 +823,90 @@ margin-top:10%;
   margin-left:5%;
 }
 .project{
-  border-radius: 15px;
+  border-radius: 10px;
 }
 .mobileeee{
   display:block;
   width:90%;
   margin-left:5%;
   height:60vh;
+}
+.portlang .lang{
+  margin-left:20%;
+  margin-top:5%;
+}
+.mobilepic{
+  display: block;
+  width:90%;
+  margin-left:5%;
+  height:350px;
+  margin-bottom:5%
+}
+.mobilepic img{
+  width:100%;
+}
+.project{
+   height:auto
+   
+}
+#second{
+  margin-top:5%
+}
+.project img{
+  height:30vh
+  
+}
+.project .bod{
+  display:block;
+
+}
+.bod h3{
+  color:white;
+  text-align:center
+}
+.m-link{
+  margin-top:10%;
+  margin-left:30%;
+  width:40%;
+}
+.m-link p{
+  text-align: center;
+  
+  color:white;
+  padding-top:2%;
+  padding-bottom:2%;
+  
+  font-weight: 600;
+  border:1px solid teal;
+   border-radius: 2px;;
+  
+}
+.body .lang{
+  border:1px solid red;
+  width: 100%;;
+  text-align:none
+}
+.single{
+  margin-left:5%;
+  height:auto;
+  width:100%;
+  margin-top:10%;
+  display:flex;
+}
+.l p{
+  margin:5px;
+  font-size:12px;
+  color: teal;;
+  
+}
+.single .l{
+  width:auto;
+  margin-left: 2%;
+   
+   text-decoration-color: teal;
+   text-decoration: underline;
+
+  
 }
 
 }
