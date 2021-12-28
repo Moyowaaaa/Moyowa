@@ -745,7 +745,7 @@ footer{
   padding-top:10%;
   }
   .about .content .body{
-    margin-top:20%;
+    margin-top:35%;
     width:90%;
     margin-left:5%;
   }
