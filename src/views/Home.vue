@@ -108,7 +108,7 @@
 
               </div>
               <div class="m-link">
-                <p>View Project</p>
+                <a href="https://xdm-front.vercel.app/"><p>View Project</p></a>
               </div>
             </div>
           <!-------------
@@ -172,7 +172,7 @@
 
               </div>
               <div class="m-link">
-                <p>View Project</p>
+                <a href="https://todo-front-moyowa.vercel.app/"><p>View Project</p></a>
               </div>
             </div>
         </div>
@@ -212,7 +212,7 @@
 
               </div>
               <div class="m-link">
-                <p>View Project</p>
+                <a href="https://blogg-front.vercel.app/"><p>View Project</p></a>
               </div>
             </div>
         </div>
