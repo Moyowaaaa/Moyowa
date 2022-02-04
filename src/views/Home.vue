@@ -82,7 +82,7 @@
 
     <div class="portbody">
       <div class="portcontent">
-        <div class="project">
+        <div class="project" id="over">
 
          
           
@@ -111,6 +111,10 @@
                 <a href="https://xdm-front.vercel.app/"><p>View Project</p></a>
               </div>
             </div>
+
+        
+
+         
           <!-------------
           <div class="portlang">
             <h3>HEDGEHOG <hr></h3>
@@ -133,7 +137,19 @@
 
              
           </div>--->   
-         
+           <div class="overlay">
+
+              <div class="text">
+              <h2>HEDGEHOG <hr></h2>
+              </div>
+
+    
+             
+            
+              
+
+               <a href="https://xdm-front.vercel.app/"><button><p style="padding-left:20px; padding-right:20px; padding-top:5px;">View</p></button></a>
+            </div>
 
 
         </div>
@@ -141,7 +157,7 @@
         
 
         <div class="project" id="second">
-           <img class="first" src="../assets/3.png">
+           <img class="first" src="../assets/2.png">
 
             <div class="bod">
               <h3>TASK TRACKER</h3>
@@ -175,12 +191,30 @@
                 <a href="https://todo-front-moyowa.vercel.app/"><p>View Project</p></a>
               </div>
             </div>
+
+
+
+
+             <div class="overlay">
+
+              <div class="text">
+              <h2>Task Tacker <hr></h2>
+
+              <!-- <div class="langs" >
+                 <h4>Vue js </h4> <h4>Node js</h4> <h4>Express</h4> <h4>MongoDB</h4>
+              </div> -->
+             
+              </div>
+              
+
+                <a href="https://todo-front-moyowa.vercel.app/"><button><p style="padding-left:20px; padding-right:20px; padding-top:5px;">View</p></button></a>
+            </div> 
         </div>
 
-        
+    
         <div class="project" id="second">
 
-          <img class="first" src="../assets/2.png">
+          <img class="first" src="../assets/3.png">
 
 
                <div class="bod">
@@ -215,9 +249,24 @@
                 <a href="https://blogg-front.vercel.app/"><p>View Project</p></a>
               </div>
             </div>
-        </div>
 
-        <div class="project"></div>
+             <div class="overlay">
+
+              <div class="text">
+              <h2>Fake Blog <hr></h2>
+              </div>
+
+    
+             
+            
+              
+
+               <a href="https://blogg-front.vercel.app/"><button><p style="padding-left:20px; padding-right:20px; padding-top:5px;">View</p></button></a>
+            </div>
+
+        </div> 
+
+        <!-- <div class="project"></div> -->
 <!------------------
         <div class="project"></div>
         ------------->
@@ -345,6 +394,7 @@ position: sticky;
   display:flex;
   font-size: 16px;
   position:fixed;
+  position: relative;
   width:100%;
 }
 .nav .left{
@@ -684,16 +734,76 @@ footer{
   height:auto;
   margin-bottom:0;
   box-shadow: 20px;
+}
+
+.project {
+position: relative;
+
+}
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+
+  top: 40;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+  color:teal;
+  border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    text-align: center;
+
+}
+.text .langs{
+  display: inline-flex;
+  width:500px ;
+ 
+ 
+}
+.text .langs h4{
+  font-size:12px;
+  margin-right:5%
+}
+
+.overlay button{
+  margin-top:16px;  border:1px solid teal;
+  background:transparent;
+  width:auto;;
+
+}
+.overlay button:hover{
+  background: #333b50;
+  border: 1px solid #333b50;
+  color:white
+}
+.overlay .button p{
+  margin-left:10px;
+}
+
+
+
+footer{
+  width:100%;
+  border:2px solid #333b50;;
+  margin-top:5%;
+  text-align:center;
+  height:auto;
+  margin-bottom:0;
+  box-shadow: 20px;
   background:#333b50;
   color:white;
   padding-top:2%;
   padding-bottom:1%;
-
-
   
 }
-
-
 .foot{
   text-align:center;
   display:flex;
@@ -704,6 +814,8 @@ footer{
 .mobilepic{
   display:none;
 }
+
+
 
 
 
