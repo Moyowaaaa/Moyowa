@@ -4,7 +4,7 @@
   <div id ="mobile" class="mobilenav">
       <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
       <div class="ml"  @click="closeNav">
-         <a href="">Home</a>
+         <a href="#">Home</a>
         <a href="#about">About Me</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
@@ -399,7 +399,7 @@ body{
   display:flex;
   font-size: 16px;
   position:fixed;
-  position: relative;
+
   width:100%;
 }
 .nav .left{
