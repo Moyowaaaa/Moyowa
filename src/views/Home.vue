@@ -144,7 +144,9 @@
               </div>
 
     
-             
+               <div class="lang">
+                <p>Vue js <span style="margin-left:10px"> Chakra UI</span></p>
+              </div>
             
               
 
@@ -203,7 +205,12 @@
               <!-- <div class="langs" >
                  <h4>Vue js </h4> <h4>Node js</h4> <h4>Express</h4> <h4>MongoDB</h4>
               </div> -->
+
+              
              
+              </div>
+               <div class="lang">
+                <p>Vue js <span style="margin-left:10px"> Node.js</span> <span style="margin-left:10px"> Express</span> <span style="margin-left:10px"> MongoDB</span></p>
               </div>
               
 
@@ -256,10 +263,9 @@
               <h2>Fake Blog <hr></h2>
               </div>
 
-    
-             
-            
-              
+               <div class="lang">
+                <p>Vue js <span style="margin-left:10px"> Node.js</span> <span style="margin-left:10px"> Express</span> <span style="margin-left:10px"> MongoDB</span></p>
+              </div>
 
                <a href="https://blogg-front.vercel.app/"><button><p style="padding-left:20px; padding-right:20px; padding-top:5px;">View</p></button></a>
             </div>
@@ -388,7 +394,6 @@ body{
 .nav{
   background:
 #f2eee6;
-position: sticky;
   margin:0%;
   height:auto;
   display:flex;
@@ -743,6 +748,9 @@ position: relative;
 .project:hover .overlay {
   opacity: 1;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .overlay {
   position: absolute;
@@ -760,6 +768,7 @@ position: relative;
   border-bottom-left-radius:10px ;
     border-bottom-right-radius:10px ;
     text-align: center;
+    margin-bottom:15px
 
 }
 .text .langs{
@@ -774,6 +783,7 @@ position: relative;
 }
 
 .overlay button{
+  color: teal;;
   margin-top:16px;  border:1px solid teal;
   background:transparent;
   width:auto;;
@@ -813,6 +823,9 @@ footer{
 }
 .mobilepic{
   display:none;
+}
+.lang{
+  color:teal;
 }
 
 
