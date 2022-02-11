@@ -1030,8 +1030,9 @@ margin-top:10%;
    
    text-decoration-color: teal;
    text-decoration: underline;
-
-  
+}
+.overlay{
+  display:none;
 }
 
 }
@@ -1077,6 +1078,9 @@ margin-top:10%;
     display:flex;;
     flex-wrap: wrap;
   }
+  .overlay{
+  display:none;
+}
 
 
 
@@ -1097,7 +1101,10 @@ margin-top:10%;
     width:99%;
     margin-left:5px;
   }
-  
+  .overlay{
+  display:none;
+}
+
 }
 
 
