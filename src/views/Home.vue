@@ -490,6 +490,7 @@ body{
   width:100%;
   height:100vh;
   background-color: #f2eee6;
+  background-attachment: fixed;
   
   
 }
@@ -1053,6 +1054,7 @@ margin-top:10%;
   color:black;
   }
   .main{
+    background-attachment: fixed;
     background-image:none;
   }
 
