@@ -16,11 +16,11 @@
   <div class="nav">
     
     <div class="left">
-      Moyowa
+    <a href="">  Moyowa</a>
 </div>
 
       <div class="right">
-        <a href="" class="router">Home</a>
+        <!-- <a href="" class="router">Home</a> -->
         <a href="#about" class="router">About Me</a>
         <a href="#portfolio" class="router">Portfolio</a>
         <a href="#contact" class="router">Contact</a>
@@ -66,7 +66,7 @@
           <p>I usually spend my days coding or learning something new and now I seek new opportunities to develop my skills even further. </p>
       </div>
      
-        <a href="https://drive.google.com/file/d/1s3XNpbtFk_X6Qj40mu5ocL1vPZ_QPuTK/view?usp=sharing"><button>View Resume</button></a>
+        <a href="https://drive.google.com/file/d/1s3XNpbtFk_X6Qj40mu5ocL1vPZ_QPuTK/view?usp=sharing" target="_blank"><button>View Resume</button></a>
      
     </div>
 
@@ -77,214 +77,141 @@
   <div class="portfolio" id="portfolio">
 
     <div class="header">
-      <h2>Portfolio<hr></h2>
+      <h2>My Works<hr></h2>
     </div>
 
-    <div class="portbody">
-      <div class="portcontent">
-        <div class="project" id="over">
-
-         
-          
-       
-      
-            <img class="first" src="../assets/1.png">
-
-            <div class="bod">
-              <h3>HEDGEHOG</h3>
-              <div class="lang">
-
-              <div class="single">
-
-                <div class="l">
-                <p>Vue.js</p>
-                </div>
-                
-                <div class="l">
-                <p>Chakra -ui</p>
-                </div>
-              </div>
-                
-
-              </div>
-              <div class="m-link">
-                <a href="https://xdm-front.vercel.app/"><p>View Project</p></a>
-              </div>
-            </div>
-
-        
-
-         
-          <!-------------
-          <div class="portlang">
-            <h3>HEDGEHOG <hr></h3>
-            <p>Task Tracking web application</p>
-
-            <div class="lang">
-              <div class="langs"><p>Vue.Js</p></div>
-              <div class="langs" id="lang2"><p>Ckakra-UI</p></div>
-            </div>
-            <br>
-            
-
-          </div> ---->
+    <div class="projects">
 
 
-          <!--------
-          <div class="up">
-                <div class="hourglass">
-                  <span class="glyphicon glyphicon-hourglass"></span>
+        <!-- ------------ -->
 
-             
-          </div>--->   
-           <div class="overlay">
+        <!-- <a href="https://app.getspire.io"></a> -->
+      <div class="project" id="first">
 
-              <div class="text">
-              <h2>HEDGEHOG <hr></h2>
-              </div>
+        <a href="https://app.getspire.io">
+        <div class="link">
+        <div class="langs">
+          <p>Spirē </p>
 
-    
-               <div class="lang">
-                <p>Vue js <span style="margin-left:10px"> Chakra UI</span></p>
-              </div>
-            
-              
+          <div>
+            <span>React</span>
+            <span>Next.js</span>
+            <span>Tailwind CSS</span>
+          </div>
 
-               <a href="https://xdm-front.vercel.app/"><button><p style="padding-left:20px; padding-right:20px; padding-top:5px;">View</p></button></a>
-            </div>
 
 
         </div>
-
-        
-
-        <div class="project" id="second">
-           <img class="first" src="../assets/2.png">
-
-            <div class="bod">
-              <h3>TASK TRACKER</h3>
-              <div class="lang">
-
-              <div class="single">
-
-                <div class="l">
-                <p>Vue.js</p>
-                </div>
-
-                <div class="l">
-                <p>Node js</p>
-                </div>
-                
-                <div class="l">
-                <p>Express</p>
-                </div>
-
-                <div class="l">
-                <p>MongoDB</p>
-                </div>
-              </div>
-
-              
-            
-                
-
-              </div>
-              <div class="m-link">
-                <a href="https://todo-front-moyowa.vercel.app/"><p>View Project</p></a>
-              </div>
-            </div>
-
-
-
-
-             <div class="overlay">
-
-              <div class="text">
-              <h2>Task Tacker <hr></h2>
-
-              <!-- <div class="langs" >
-                 <h4>Vue js </h4> <h4>Node js</h4> <h4>Express</h4> <h4>MongoDB</h4>
-              </div> -->
-
-              
-             
-              </div>
-               <div class="lang">
-                <p>Vue js <span style="margin-left:10px"> Node.js</span> <span style="margin-left:10px"> Express</span> <span style="margin-left:10px"> MongoDB</span></p>
-              </div>
-              
-
-                <a href="https://todo-front-moyowa.vercel.app/"><button><p style="padding-left:20px; padding-right:20px; padding-top:5px;">View</p></button></a>
-            </div> 
         </div>
-
-    
-        <div class="project" id="second">
-
-          <img class="first" src="../assets/3.png">
-
-
-               <div class="bod">
-              <h3>FAKE BLOG</h3>
-              <div class="lang">
-
-              <div class="single">
-
-                <div class="l">
-                <p>Vue.js</p>
-                </div>
-
-                <div class="l">
-                <p>Node js</p>
-                </div>
-                
-                <div class="l">
-                <p>Express</p>
-                </div>
-
-                <div class="l">
-                <p>MongoDB</p>
-                </div>
-              </div>
-
-              
-            
-                
-
-              </div>
-              <div class="m-link">
-                <a href="https://blogg-front.vercel.app/"><p>View Project</p></a>
-              </div>
-            </div>
-
-             <div class="overlay">
-
-              <div class="text">
-              <h2>Fake Blog <hr></h2>
-              </div>
-
-               <div class="lang">
-                <p>Vue js <span style="margin-left:10px"> Node.js</span> <span style="margin-left:10px"> Express</span> <span style="margin-left:10px"> MongoDB</span></p>
-              </div>
-
-               <a href="https://blogg-front.vercel.app/"><button><p style="padding-left:20px; padding-right:20px; padding-top:5px;">View</p></button></a>
-            </div>
-
-        </div> 
-
-        <!-- <div class="project"></div> -->
-<!------------------
-        <div class="project"></div>
-        ------------->
-
+        </a>
 
       </div>
-    </div>
 
+
+      <!-- ----------- -->
+
+
+         
+
+
+
+      <!-- ------------ -->
+
+
+      <div class="project" id="second">
+        <a href="https://todo-front-moyowa.vercel.app/">
+       <div class="link">
+        <div class="langs">
+
+          <div class="des">
+          <p>Todo Web Application</p>
+         
+
+          </div>
+
+          <div><span>Vue.js</span>
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          
+          </div>
+        </div>
+        </div>
+        </a>
+
+      </div>
+
+
+      <!-- ----------- -->
+
+
+   
+
+
+
+
+      <!-- ------------ -->
+      <div class="project" id="third">
+        <a href="https://xdm-front.vercel.app/">
+      
+      <div class="link">
+
+      
+
+
+        <div class="langs">
+          
+          <div class="des">
+          <p>HedgeHog</p>
+          
+
+       
+          </div>
+
+
+
+          <div>
+            <span>Vue.js</span>
+            <span>Chakra-ui</span>
+          </div>
+        </div>
+
+      </div>
+        </a>
+      </div>
+
+
+      <!-- ----------- -->
+
+      <!-- ------------ -->
+      <div class="project" id="fourth">
+
+
+        <div class="langs">
+          <p>Online Shop</p>
+
+          <div>
+            <span>React</span>
+            <span>Next.js</span>
+            <span>Tailwind CSS</span>
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- ----------- -->
+
+
+
+    </div>
+    
+
+ 
 
     
       <div class="git">
-        <a href="https://github.com/Moyowaaaa"><p>See More <i class="fa fa-github" aria-hidden="true"></i></p></a>
+        <a href="https://github.com/Moyowaaaa" target="_blank"><p>See More <i class="fa fa-github" aria-hidden="true"></i></p></a>
       </div>
 
   </div>
@@ -410,11 +337,16 @@ body{
   margin-left:10%;
   width:20%;
 }
+
+.nav .left a{
+  color:black;
+  text-decoration:none;
+}
 .nav .right{
    margin-top:1%;
   margin-bottom:1%;
   width:80%;
-  margin-left:90vh;
+  margin-left:95vh;
     font-weight: 600;
 }
 .nav .right a{
@@ -505,6 +437,7 @@ body{
   padding-top:20%;
   margin-left:20%;
   font-Size:60px;
+  position: sticky;
 } 
 .title p{
   padding-top:10%;
@@ -618,67 +551,95 @@ a:hover{
   padding-top:10vh;
   padding-bottom:10vh;
 }
-.portbody{
-  width:100%;
-  height:auto;
-}
-.portcontent{
-  
-  margin-bottom:2%;
-  width:90%;
-  margin-left:3%;
+
+.projects{
+  width: 100%;
+
   height:auto;
   display:flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
+  
 }
-.project{
-  border-radius:10px;
-  background: black;
-  width:47%;
-  height:auto;
-  margin-left:2%;
+
+.projects .project{
+  height: 40vh;
+  cursor: pointer;
+  width:40%;
   margin-top:2%;
-
-  
+  margin-left: 2%;
  
+
 }
 
-
-.project img{
-  border-top-left-radius:10px;
-  border-top-right-radius:10px;
-  height:90%
+.projects .project .link{
+  height: 100%;
 }
-.bod p{
-  margin:2%
-}
-.project .bod{
-  display: none;;
-  
-  display: none;;
-}
-
-
-
-
-
-
-
-
-.first{
+.projects .project .langs{
+ 
+  position: absolute;
+  color:white;
+  bottom:0;
+  height: 10vh;
   width:100%;
-  height:100%;
+  padding:2%
 }
 
-.up{
-  width:100%;
+.projects .project .langs p{
+  padding-left: 5%;
+ 
+  font-size: 20px;
+}
+.projects .project .langs div span{
+  font-size:10px;
+  margin-left:5%;
+  width:auto;
+  text-decoration: underline;
+    /* background:black;
+    border-radius: 10px;;
+    padding-left:5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;*/
+} 
+.projects .project .langs .des{
+  display: flex;
+  align-items: center;
 
 }
-.up .hourglass{
-  font-size: 100px;
-  text-align: center;
-  margin-top:45%;
-  color:steelblue
+
+.projects .project .langs .des .fa{
+  position: absolute;
+  font-size: 18px ;
+  margin-left:7vw;
+}
+
+
+#first{
+  background:url(../assets/Spire.png);
+  background-size: cover;
+}
+
+#second {
+  background: url(../assets/todos.png);
+  background-size: cover;
+
+}
+
+#third{
+  background:url(../assets/hedgehog.png);
+  background-size: cover;
+}
+
+#fourth{
+  background:url(../assets/shop.png);
+  background-size: cover;
+}
+
+#third .langs, #second .langs{
+  color:black;
 }
 
 
@@ -772,16 +733,7 @@ html {
     margin-bottom:15px
 
 }
-.text .langs{
-  display: inline-flex;
-  width:500px ;
- 
- 
-}
-.text .langs h4{
-  font-size:12px;
-  margin-right:5%
-}
+
 
 .overlay button{
   color: teal;;
@@ -877,11 +829,6 @@ footer{
   }
 
 
-  .gallery .projects {
-    width:95%;
-    margin-left:5%;
-    margin-top:5%;
-  }
   .contact .cont{
     width:98%;
     margin-left:1%;
@@ -912,11 +859,6 @@ footer{
    .portfolio {
     height:auto;
     width:100%
-  }
-  .project{
-    width:90%;
-    margin-left:5%;
-    height:428px;
   }
    .mobilenav {
     display:block;
@@ -975,9 +917,7 @@ margin-top:10%;
    height:auto
    
 }
-#second{
-  margin-top:5%
-}
+
 .project img{
   height:30vh
   
@@ -1034,6 +974,15 @@ margin-top:10%;
 }
 .overlay{
   display:none;
+}
+.projects .project{
+  width: 80%;
+  height: 70vh;
+}
+#first{
+  background-size: 100%;
+  background-repeat: no-repeat;
+  
 }
 
 }
