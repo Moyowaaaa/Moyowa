@@ -891,7 +891,7 @@ margin-top:10%;
   margin-left:5%;
 }
 .project{
-  border-radius: 10px;
+  border-radius:5px
 }
 .mobileeee{
   display:block;
@@ -976,14 +976,22 @@ margin-top:10%;
   display:none;
 }
 .projects .project{
+  margin-top:5%;
   width: 80%;
-  height: 70vh;
+  height: 30vh;
 }
-#first{
-  background-size: 100%;
-  background-repeat: no-repeat;
-  
+#second{
+ 
+  background-position-x: -10vh
 }
+
+#third .langs{
+  padding-top:20px;
+}
+#fourth .langs{
+  padding-top:20px
+}
+
 
 }
 /* ------------ */
