@@ -325,8 +325,8 @@ body{
   height:auto;
   display:flex;
   font-size: 16px;
-  position:fixed;
 
+  
   width:100%;
 }
 .nav .left{
