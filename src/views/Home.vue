@@ -995,7 +995,7 @@ margin-top:10%;
 
 }
 /* ------------ */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .nav{
     display:none;
   }
@@ -1039,6 +1039,11 @@ margin-top:10%;
   }
   .overlay{
   display:none;
+}
+.projects .project{
+  margin-top:5%;
+  width: 80%;
+  height: 40vh;
 }
 
 
