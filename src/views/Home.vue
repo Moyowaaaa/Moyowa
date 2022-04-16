@@ -232,10 +232,10 @@
                 </div>
 
                 <div class="links">
-                   <a href="mailto:moyowa7@icloud.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-          <a href="https://www.linkedin.com/in/moyowa-etchie-665b51189"><i class="fa fa-linkedin"></i></a>
-         <a href="https://github.com/Moyowaaaa"><i class="fa fa-github" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/Etchie____"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                   <a href="mailto:moyowa7@icloud.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/moyowa-etchie-665b51189" target="_blank"><i class="fa fa-linkedin"></i></a>
+         <a href="https://github.com/Moyowaaaa" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                    <a href="https://twitter.com/Etchie____" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                 </div>
       </div>
     </div>
