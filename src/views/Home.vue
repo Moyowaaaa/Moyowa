@@ -186,7 +186,7 @@
       <!-- ------------ -->
       <div class="project" id="fourth">
         <a href="https://e-commerce-moyowa.vercel.app/">
-
+        <div class="link">
         <div class="langs">
           <p>Online Shop</p>
 
@@ -195,6 +195,7 @@
             <span>Next.js</span>
             <span>Tailwind CSS</span>
           </div>
+        </div>
         </div>
         </a>
       </div>
