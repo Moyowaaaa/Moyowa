@@ -88,7 +88,7 @@
         <!-- <a href="https://app.getspire.io"></a> -->
       <div class="project" id="first">
 
-        <a href="https://app.getspire.io">
+        <a href="https://app.getspire.io" target="_blank">
         <div class="link">
         <div class="langs">
           <p>Spirē </p>
@@ -119,7 +119,7 @@
 
 
       <div class="project" id="second">
-        <a href="https://todo-front-moyowa.vercel.app/">
+        <a href="https://todo-front-moyowa.vercel.app/" target="_blank">
        <div class="link">
         <div class="langs">
 
@@ -152,7 +152,7 @@
 
       <!-- ------------ -->
       <div class="project" id="third">
-        <a href="https://xdm-front.vercel.app/">
+        <a href="https://xdm-front.vercel.app/" target="_blank">
       
       <div class="link">
 
@@ -185,7 +185,7 @@
 
       <!-- ------------ -->
       <div class="project" id="fourth">
-        <a href="https://e-commerce-moyowa.vercel.app/">
+        <a href="https://e-commerce-moyowa.vercel.app/" target="_blank">
         <div class="link">
         <div class="langs">
           <p>Online Shop</p>
