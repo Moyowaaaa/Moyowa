@@ -343,6 +343,9 @@ body{
   color:black;
   text-decoration:none;
 }
+.nav .left a:hover{
+    border-bottom: 2px solid steelblue;
+}
 .nav .right{
    margin-top:1%;
   margin-bottom:1%;
@@ -360,11 +363,9 @@ body{
   text-decoration: underline 0.17em rgba(182, 137, 137, 0);
 
 }
-.router:active {
-  background: #c42376;
-}
+
 .router:hover {
-  text-decoration-color: #441180;
+  border-bottom: 2px solid steelblue;
 }
 .mobilenav {
 
@@ -378,6 +379,7 @@ body{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    
 }
 
 .mobilenav a {
@@ -388,9 +390,13 @@ body{
     color: black;
     display: block;
     transition: 0.3s;
+    padding-top:5%
 }
 
 .mobilenav a:hover {
+    color: #f1f1f1;
+}
+.mobilenav a:active {
     color: #f1f1f1;
 }
 
@@ -408,6 +414,9 @@ body{
 }
 .span{
   color:steelblue
+}
+.ml{
+  margin-top:15%;
 }
 
 
@@ -686,7 +695,10 @@ margin-top:5%;
 }
 .links a{
   font-size:20px;
-  margin-left:2%;
+  margin-left:5%;
+}
+.links a:hover{
+  border-bottom:2px solid black;
 }
 /*--------------------*/
 hr{
@@ -980,6 +992,7 @@ margin-top:10%;
   margin-top:5%;
   width: 80%;
   height: 30vh;
+
 }
 #second{
  
@@ -987,10 +1000,10 @@ margin-top:10%;
 }
 
 #third .langs{
-  padding-top:20px;
+  padding-top:5px;
 }
 #fourth .langs{
-  padding-top:20px
+  padding-top:5px
 }
 
 
