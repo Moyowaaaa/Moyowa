@@ -10,7 +10,7 @@
         <a href="#contact">Contact</a>
       </div>
   </div>
-  <span class="mbutton" style="font-size:40px;cursor:pointer" @click="openNav">
+  <span class="mbutton" id="button" style="font-size:40px;cursor:pointer" @click="openNav">
   &#9776;</span>
 
   <div class="nav">
@@ -310,7 +310,8 @@ closeNav() {
     const element = new Date();
 document.getElementById("demo").innerHTML = element.getFullYear();
   }
-}
+},
+
 }
 </script>
 
@@ -379,6 +380,7 @@ body{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+    display: none;
     
 }
 
@@ -409,8 +411,12 @@ body{
 }
 .mbutton{
   display:none;
-  position:sticky;
+
   margin-top:5%;
+
+
+
+
 }
 .span{
   color:steelblue
@@ -875,7 +881,7 @@ footer{
   }
    .mobilenav {
     display:block;
-    
+    position: fixed;
     padding-top: 15px;}
   .mobilenav a {font-size: 18px;
   color:black;
