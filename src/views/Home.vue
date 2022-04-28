@@ -588,8 +588,9 @@ a:hover{
   height: 40vh;
   cursor: pointer;
   width:40%;
-  margin-top:2%;
-  margin-left: 2%;
+  margin-top:1%;
+  margin-left: 1%;
+  box-shadow:1px 1px  steelblue;
  
 
 }
