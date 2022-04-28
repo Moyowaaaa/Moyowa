@@ -345,7 +345,9 @@ body{
   text-decoration:none;
 }
 .nav .left a:hover{
-    border-bottom: 2px solid steelblue;
+    border-bottom: 3px solid steelblue;
+     transition: all ease-in-out .5s;
+     
 }
 .nav .right{
    margin-top:1%;
@@ -366,7 +368,8 @@ body{
 }
 
 .router:hover {
-  border-bottom: 2px solid steelblue;
+  border-bottom: 3px solid steelblue;
+   transition: all ease-in-out .5s;
 }
 .mobilenav {
 
@@ -454,6 +457,7 @@ body{
   margin-left:20%;
   font-Size:60px;
   position: sticky;
+  
 } 
 .title p{
   padding-top:10%;
