@@ -194,6 +194,7 @@
             <span>React</span>
             <span>Next.js</span>
             <span>Tailwind CSS</span>
+            <span>Redux</span>
           </div>
         </div>
         </div>
@@ -659,8 +660,12 @@ a:hover{
   background-size: cover;
 }
 
-#third .langs, #second .langs{
+#third .langs, #second .langs, #fourth .langs{
   color:black;
+}
+
+.langs p {
+  text-decoration: underline;
 }
 
 
@@ -1003,6 +1008,7 @@ margin-top:10%;
   margin-top:5%;
   width: 80%;
   height: 30vh;
+    box-shadow:none
 
 }
 #second{
