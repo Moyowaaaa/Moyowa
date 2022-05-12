@@ -59,7 +59,7 @@
         <p>Hi, I'm Moyowa Etchie, a confident and passionate web developer. I build interactive websites and web applications. I've always been passionate 
           about problem solving as this is what got me into coding</p>
 
-            <p>My core skills are based on javascript, I am higly proficient in Vue.js, React and I'm also fluent in the Node and Express backend frameworks
+            <p>My core skills are based on javascript, I am highly proficient in Vue.js, React and I'm also fluent in the Node and Express backend frameworks
           and I have also worked with the Mongo DB noSQL database on various projects.</p>
    
 
