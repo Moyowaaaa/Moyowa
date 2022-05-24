@@ -317,6 +317,28 @@ document.getElementById("demo").innerHTML = element.getFullYear();
 </script>
 
 <style scoped>
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: rgba(255,0,0,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255,0,0,0.4); 
+}
+
+
 body{
     background-color:#f2eee6;
 }
@@ -473,6 +495,7 @@ body{
   padding-top:10%;
   font-size:20px;
 }
+
 
 /* ABOUT*/
 .about{
