@@ -4,7 +4,7 @@
   <div id ="mobile" class="mobilenav">
       <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
       <div class="ml"  @click="closeNav">
-         <a href="#">Home</a>
+         <a href="#main">Home</a>
         <a href="#about">About Me</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
@@ -16,7 +16,7 @@
   <div class="nav">
     
     <div class="left">
-    <a href="">  Moyowa</a>
+    <a href="#main">  Moyowa</a>
 </div>
 
       <div class="right">
@@ -31,7 +31,7 @@
     
   </div>
 
-  <div class="main">
+  <div class="main" id="main">
  
 <div class="title">
   
@@ -317,6 +317,9 @@ document.getElementById("demo").innerHTML = element.getFullYear();
 </script>
 
 <style scoped>
+html{
+  scroll-behavior: smooth;
+}
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
@@ -350,8 +353,8 @@ body{
   height:auto;
   display:flex;
   font-size: 16px;
-
-  
+  z-index: 50;
+  position:fixed;
   width:100%;
 }
 .nav .left{
@@ -455,6 +458,7 @@ body{
 
 
 .main{
+  padding-top:6rem;
   background: linear-gradient(to bottom, transparent, transparent),url('../assets/4.jpeg') ;
   background-repeat: no-repeat;
   background-size: cover;
