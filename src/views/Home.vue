@@ -152,7 +152,7 @@
 
       <!-- ------------ -->
       <div class="project" id="third">
-        <a href="https://xdm-front.vercel.app/" target="_blank">
+        <a href="https://advice-app-moyowa.vercel.app/" target="_blank">
       
       <div class="link">
 
@@ -162,7 +162,7 @@
         <div class="langs">
           
           <div class="des">
-          <p>HedgeHog</p>
+          <p>Advice App</p>
           
 
        
@@ -172,7 +172,6 @@
 
           <div>
             <span>Vue.js</span>
-            <span>Chakra-ui</span>
           </div>
         </div>
 
@@ -693,6 +692,10 @@ a:hover{
 
 .langs p {
   text-decoration: underline;
+}
+
+#third .langs{
+  color:white
 }
 
 
