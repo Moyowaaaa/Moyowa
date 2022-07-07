@@ -6,13 +6,21 @@
 </template>
 
 <style >
+
+@font-face{
+  font-family: "space-grotesk";
+  src: local("space-grotesk"),
+  url(../fonts/SpaceGrotesk-VariableFont_wght.ttf) format("truetype");
+}
+
 html{
   scroll-behavior: smooth;
 }
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-
+  margin:0 !important;
+  padding: 0 !important;
   background-color:#f2eee6;
   overflow-x:hidden
   

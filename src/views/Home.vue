@@ -2,7 +2,7 @@
 <div id="App">
 
   <div id ="mobile" class="mobilenav">
-      <a href="javascript:void(0)" class="closebtn" @click="closeNav">&times;</a>
+      <a class="closebtn" @click="closeNav">&times;</a>
       <div class="ml"  @click="closeNav">
          <a href="#main">Home</a>
         <a href="#about">About Me</a>
@@ -86,6 +86,79 @@
         <!-- ------------ -->
 
         <!-- <a href="https://app.getspire.io"></a> -->
+        <div class="project" id="seventh">
+
+        <a href="https://easy-landing.vercel.app/" target="_blank">
+        <div class="link">
+        <div class="langs">
+          <p>Easy </p>
+
+          <div>
+            <span>Vue.js</span>
+            <span>Tailwind CSS</span>
+       
+          </div>
+
+
+
+        </div>
+        </div>
+        </a>
+
+      </div>
+
+
+            <div class="project" id="fifth">
+
+        <a href="https://teslim-jimoh.netlify.app/" target="_blank">
+        <div class="link">
+        <div class="langs">
+          <p>Teslim Portfolio</p>
+
+          <div>
+            <span>React</span>
+            <span>Next.js</span>
+            <span>Tailwind CSS</span>
+            <span>Firebase</span>
+          </div>
+
+
+
+        </div>
+        </div>
+        </a>
+
+      </div>
+
+       <div class="project" id="sixth">
+
+        <a href="https://notes-app-moyowa.vercel.app/" target="_blank">
+        <div class="link">
+        <div class="langs">
+          <p>Full Stack Notes and Todo Application</p>
+
+          <div>
+            <span>React</span>
+            <span>Next.js</span>
+            <span>Tailwind CSS</span>
+            <span>Node.js</span>
+            <span>Express</span>
+            <span>Graphql</span>
+            <span>MongoDB</span>
+
+
+          </div>
+
+
+
+        </div>
+        </div>
+        </a>
+
+      </div>
+
+
+
       <div class="project" id="first">
 
         <a href="https://app.getspire.io" target="_blank">
@@ -96,6 +169,49 @@
           <div>
             <span>React</span>
             <span>Next.js</span>
+            <span>Tailwind CSS</span>
+          </div>
+
+
+
+        </div>
+        </div>
+        </a>
+
+      </div>
+
+      
+      <!-- ------------ -->
+      <div class="project" id="fourth">
+        <a href="https://e-commerce-moyowa.vercel.app/" target="_blank">
+        <div class="link">
+        <div class="langs">
+          <p>Online Shop</p>
+
+          <div>
+            <span>React</span>
+            <span>Next.js</span>
+            <span>Tailwind CSS</span>
+            <span>Redux</span>
+          </div>
+        </div>
+        </div>
+        </a>
+      </div>
+
+
+      
+
+
+        <div class="project" id="Eighth">
+
+        <a href="https://weather-app-moyowa.vercel.app/" target="_blank">
+        <div class="link">
+        <div class="langs">
+          <p>Weather Application </p>
+
+          <div>
+            <span>Vue.js</span>
             <span>Tailwind CSS</span>
           </div>
 
@@ -182,23 +298,6 @@
 
       <!-- ----------- -->
 
-      <!-- ------------ -->
-      <div class="project" id="fourth">
-        <a href="https://e-commerce-moyowa.vercel.app/" target="_blank">
-        <div class="link">
-        <div class="langs">
-          <p>Online Shop</p>
-
-          <div>
-            <span>React</span>
-            <span>Next.js</span>
-            <span>Tailwind CSS</span>
-            <span>Redux</span>
-          </div>
-        </div>
-        </div>
-        </a>
-      </div>
 
 
       <!-- ----------- -->
@@ -632,7 +731,8 @@ a:hover{
   bottom:0;
   height: 10vh;
   width:100%;
-  padding:2%
+  padding:2%;
+  font-family: "space-grotesk", Helvetica, Arial, sans-serif;
 }
 
 .projects .project .langs p{
@@ -686,7 +786,7 @@ a:hover{
   background-size: cover;
 }
 
-#third .langs, #second .langs, #fourth .langs{
+#third .langs, #second .langs, #fourth .langs {
   color:black;
 }
 
@@ -698,6 +798,32 @@ a:hover{
   color:white
 }
 
+#fifth{
+  background:url(../assets/teslimportfolio.png);
+  background-size: cover;
+}
+#fifth .langs{
+  color:black
+}
+
+#sixth{
+  background:url(../assets/notes.png);
+  background-size: cover;
+}
+
+#sixth .langs{
+  color:black
+}
+
+#seventh{
+  background:url(../assets/Easy.png);
+  background-size: cover;
+}
+
+#Eighth{
+  background:url(../assets/weatherpng.png);
+  background-size: cover;
+}
 
 
 

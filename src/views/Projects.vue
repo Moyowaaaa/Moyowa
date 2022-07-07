@@ -1,11 +1,13 @@
 <template>
-    <div>
+    <div class="projectsPage">
+
+      
+        
 
 
-        <div class="header">
-            <h3>Moyowa.</h3>
-        </div>
 
+
+  
 
 
 
@@ -26,8 +28,8 @@ export default {
 
 <style scoped>
 
-.header{
-  
-    padding:2%;
+.navbar{
+    position:fixed;
+    padding-left:2%
 }
 </style>
