@@ -371,12 +371,10 @@
 
 
     <div class="foot">
-       <div class="L">
-      <p>Copyright &copy; Moyowa</p>
-    </div>
-    &nbsp;
+      <p>&copy; <span id="demo"></span> Moyowa </p>
+     
       
-      <div id="demo"></div>
+      
     </div>
    
 
@@ -821,7 +819,7 @@ a:hover{
 }
 
 #Eighth{
-  background:url(../assets/weatherpng.png);
+  background:url(../assets/weather.png);
   background-size: cover;
 }
 
