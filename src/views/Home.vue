@@ -972,6 +972,10 @@ footer{
 
 /*-- Mobile Devices --*/
 @media screen and (max-width: 480px) {
+  html{
+  scroll-behavior: auto;
+}
+
   .nav{
     display:none;
   }
