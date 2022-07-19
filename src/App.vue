@@ -13,9 +13,7 @@
   url(../fonts/SpaceGrotesk-VariableFont_wght.ttf) format("truetype");
 }
 
-html{
-  scroll-behavior: smooth;
-}
+
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -44,7 +42,7 @@ body{
 /* width */
 ::-webkit-scrollbar {
   width: 6px;
-  scroll-behavior: smooth;
+
 
 }
 
@@ -72,5 +70,11 @@ height: 5px;;
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+@media screen and (min-width:1024px){
+  html{
+    scroll-behavior: smooth;
+  }
+}
+
 
 </style>

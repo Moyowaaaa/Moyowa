@@ -413,9 +413,7 @@ document.getElementById("demo").innerHTML = element.getFullYear();
 </script>
 
 <style scoped>
-html{
-  scroll-behavior: smooth;
-}
+
 ::-webkit-scrollbar {
     width: 6px;
     height: 6px;
@@ -893,9 +891,6 @@ position: relative;
 .project:hover .overlay {
   opacity: 1;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 .overlay {
   position: absolute;
@@ -972,9 +967,7 @@ footer{
 
 /*-- Mobile Devices --*/
 @media screen and (max-width: 480px) {
-  html{
-  scroll-behavior: auto;
-}
+
 
   .nav{
     display:none;
@@ -1256,6 +1249,12 @@ margin-top:10%;
   .overlay{
   display:none;
 }
+
+
+}
+
+@media screen and (min-width:1024px){
+ 
 }
 
 
