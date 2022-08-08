@@ -83,6 +83,31 @@
     <div class="projects">
 
 
+      <!-- ---- -->
+       <div class="project" id="Nineth">
+
+        <a href="https://netflix-clone-gamma-woad.vercel.app/" target="_blank">
+        <div class="link">
+        <div class="langs">
+          <p>Netlix clone </p>
+
+          <div>
+            <span>React</span>
+            <span>Next.js</span>
+            <span>TypeScript</span>
+            <span>Tailwind CSS</span>
+       
+          </div>
+
+
+
+        </div>
+        </div>
+        </a>
+
+      </div>
+
+
         <!-- ------------ -->
 
         <!-- <a href="https://app.getspire.io"></a> -->
@@ -822,6 +847,12 @@ a:hover{
 }
 
 
+#Nineth{
+  background:url(../assets/netflix.png);
+  background-size: cover;
+}
+
+
 
 
 /*----------- */
@@ -1251,10 +1282,6 @@ margin-top:10%;
 }
 
 
-}
-
-@media screen and (min-width:1024px){
- 
 }
 
 
