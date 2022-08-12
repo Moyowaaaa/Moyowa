@@ -95,7 +95,9 @@
             <span>React</span>
             <span>Next.js</span>
             <span>TypeScript</span>
+            <span>Redux</span>
             <span>Tailwind CSS</span>
+
        
           </div>
 
