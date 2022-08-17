@@ -145,6 +145,7 @@
           <div>
             <span>React</span>
             <span>Next.js</span>
+            <span>GSAP</span>
             <span>Tailwind CSS</span>
             <span>Firebase</span>
           </div>
