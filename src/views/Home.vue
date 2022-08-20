@@ -66,7 +66,7 @@
           <p>I usually spend my days coding or learning something new and now I seek new opportunities to develop my skills even further. </p>
       </div>
      
-        <a href="https://drive.google.com/file/d/1s3XNpbtFk_X6Qj40mu5ocL1vPZ_QPuTK/view?usp=sharing" target="_blank"><button>View Resume</button></a>
+        <a href="https://drive.google.com/file/d/1KygnlWgVgVrH_JEUn3OSxgIGQ1njsqVe/view?usp=sharing" target="_blank"><button>View Resume</button></a>
      
     </div>
 
