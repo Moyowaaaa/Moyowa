@@ -86,10 +86,10 @@
       <!-- ---- -->
        <div class="project" id="Nineth">
 
-        <a href="https://netflix-clone-gamma-woad.vercel.app/" target="_blank">
+        <a href="https://netflix-clone-moyowa.vercel.app/" target="_blank">
         <div class="link">
         <div class="langs">
-          <p>Netlix clone </p>
+          <p >Netlix clone </p>
 
           <div>
             <span>React</span>
