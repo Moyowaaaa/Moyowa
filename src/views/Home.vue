@@ -94,7 +94,7 @@
     <span>Vue</span>
     <span>Nuxt.js</span>
     <span>Tailwind CSS</span>
-    <span>Gsap</span>
+    <span>GSAP</span>
 
 
   </div>
