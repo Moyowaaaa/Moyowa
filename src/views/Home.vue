@@ -82,6 +82,30 @@
 
     <div class="projects">
 
+            <!-- ---- -->
+            <div class="project" id="Tenth">
+
+<a href="https://droves-landing-moyowa.vercel.app/" target="_blank">
+<div class="link">
+<div class="langs">
+  <p >Droves</p>
+
+  <div>
+    <span>Vue</span>
+    <span>Nuxt.js</span>
+    <span>Tailwind CSS</span>
+    <span>Gsap</span>
+
+
+  </div>
+
+
+
+</div>
+</div>
+</a>
+
+</div>
 
       <!-- ---- -->
        <div class="project" id="Nineth">
@@ -853,6 +877,15 @@ a:hover{
 #Nineth{
   background:url(../assets/netflix.png);
   background-size: cover;
+}
+
+#Tenth{
+  background: url(../assets/Droves.png);
+  background-size: cover;
+}
+
+#Tenth .langs{
+  color:black
 }
 
 
