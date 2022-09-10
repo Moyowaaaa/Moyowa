@@ -209,6 +209,30 @@
 
       </div>
 
+        <!-- ---- -->
+        <div class="project" id="Eleventh">
+
+<a href="https://https://wiper-ng.vercel.app/" target="_blank">
+<div class="link">
+<div class="langs">
+  <p >Wiper Landing Page </p>
+
+  <div>
+    <span>Vue</span>
+    <span>Nuxt.js</span>
+    <span>Tailwind CSS</span>
+   
+
+
+  </div>
+
+
+
+</div>
+</div>
+</a>
+
+</div>
 
 
       <div class="project" id="first">
@@ -884,8 +908,14 @@ a:hover{
   background-size: cover;
 }
 
-#Tenth .langs{
+#Tenth .langs, #Eleventh .langs{
   color:black
+}
+
+#Eleventh{
+  background: url(../assets/Wiper.png);
+  background-size:cover;
+  
 }
 
 
